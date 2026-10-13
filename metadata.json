@@ -1,0 +1,11 @@
+{
+  "name": "JapanGo 旅日即時路牌翻譯與離線助手",
+  "description": "日本自由行必備：即時相機掃描路牌、相片繁中辨識翻譯、日語輸入翻譯與全功能離線應急辭典",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

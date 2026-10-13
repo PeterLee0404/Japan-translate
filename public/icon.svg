@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  
+  <!-- Red Sun (Hinomaru accent) -->
+  <circle cx="256" cy="230" r="140" fill="url(#sun)" opacity="0.95"/>
+  
+  <!-- Stylized Mount Fuji Silhouette in background -->
+  <path d="M120 370 L210 240 L256 260 L302 240 L392 370 Z" fill="#ffffff" opacity="0.15"/>
+  <path d="M210 240 L256 200 L302 240 L275 250 L256 242 L237 250 Z" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Torii Gate / Scanner Frame -->
+  <rect x="110" y="160" width="292" height="24" rx="10" fill="#ffffff" />
+  <path d="M96 150 C190 135 322 135 416 150 L410 172 C320 156 192 156 102 172 Z" fill="#ffffff"/>
+  
+  <!-- Pillars -->
+  <rect x="160" y="160" width="22" height="210" rx="6" fill="#ffffff"/>
+  <rect x="330" y="160" width="22" height="210" rx="6" fill="#ffffff"/>
+  <rect x="135" y="210" width="242" height="14" rx="4" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Translation Badge / Symbol: "日 -> 繁" or "A ⇄ 文" -->
+  <rect x="186" y="280" width="140" height="96" rx="20" fill="#0f172a" stroke="url(#gold)" stroke-width="4"/>
+  <text x="216" y="344" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44">日</text>
+  <path d="M260 326 L278 326 M272 320 L278 326 L272 332" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="286" y="344" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44">中</text>
+
+  <!-- Camera / Scanner corners -->
+  <path d="M60 120 L60 80 A20 20 0 0 1 80 60 L120 60" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M452 120 L452 80 A20 20 0 0 0 432 60 L392 60" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M60 392 L60 432 A20 20 0 0 0 80 452 L120 452" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M452 392 L452 432 A20 20 0 0 1 432 452 L392 452" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+</svg>
